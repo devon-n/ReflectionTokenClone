@@ -1,7 +1,6 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
-const BSCSCANAPIKEY = 'K7WXZBSBEDY3DJZZPDEFCEXEV9XJK17BHQ'; // TAKE THIS OUT FOR GIT
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
